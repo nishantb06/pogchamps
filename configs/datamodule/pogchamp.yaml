@@ -1,4 +1,4 @@
-_target_: src.datamodules.pogchamp_datamodule.
+_target_: src.datamodules.pogchamp_datamodule.PogChampDataModule
 data_dir: ${paths.data_dir}
 batch_size: 64
 num_workers: 0
