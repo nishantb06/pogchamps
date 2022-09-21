@@ -102,7 +102,7 @@ class PogChampDataset(Dataset):
             img  = torch.tensor(img,dtype = torch.float32)
         
         if self.train is True or self.val is True:
-            label = torch.tensor(int(self.csv['label'][idx]),dtype = torch.LongTensor)
+            label = torch.tensor(int(self.csv['label'][idx]),dtype = torch.long)
             return (img,label)
         else:
             return img
