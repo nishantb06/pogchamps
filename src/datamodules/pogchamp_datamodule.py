@@ -7,7 +7,7 @@ from torch.utils.data import ConcatDataset, DataLoader, Dataset, random_split
 from torchvision.datasets import MNIST
 from torchvision.transforms import transforms
 
-import pandas
+import pandas as pd
 import numpy as np
 from skimage import io
 import os
