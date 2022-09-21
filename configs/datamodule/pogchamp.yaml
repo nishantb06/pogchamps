@@ -1,0 +1,9 @@
+_target_: src.datamodules.pogchamp_datamodule.
+data_dir: ${paths.data_dir}
+batch_size: 64
+num_workers: 0
+pin_memory: False
+fold : 0
+
+
+
